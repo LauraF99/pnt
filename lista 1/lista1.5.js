@@ -4,5 +4,5 @@
 var readline = require("readline-sync");
 var peso = readline.questionFloat("Digite seu peso: ");
 var altura = readline.questionFloat("Digite sua altura: ");
-var imc = ((altura*altura)/peso)
-console.log(imc)
+var imc = (peso/(altura*altura))
+ console.log(imc);
