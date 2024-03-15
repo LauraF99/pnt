@@ -5,4 +5,4 @@ var readline = require("readline-sync");
 var distância = readline.questionInt("Digite a distância em km: ");
 var velocidade = readline.questionInt("Digite a velocidade média em km/h: ");
 var tempo = distância/velocidade
-console.log("o tempo estimado é de" + " " + tempo + " horas")
+console.log("o tempo estimado é de " + tempo + " horas")
