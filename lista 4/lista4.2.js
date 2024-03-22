@@ -12,9 +12,9 @@ var palpites;
 while (numAleatorio !== palpites) {
     palpites = readline.questionInt("Qual o seu palpite? (1-100): ");
 if (palpites > numAleatorio) {
-    console.log("Seu palpite é muito alto, tente novamente ")
+    console.log("Seu palpite é alto, tente novamente ")
 } else {
-    console.log("Seu palpite é muito baixo, tente novamente ")
+    console.log("Seu palpite é baixo, tente novamente ")
 } 
     
 }
